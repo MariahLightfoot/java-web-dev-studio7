@@ -25,13 +25,11 @@ public abstract class BaseDisc {
         return "The disc titled " + this.title +
                 " has " + this.capacity + " capacity and already has contents including " +
                 this.getContents();
-
     }
 
     public String playMedia(){
         return "You are playing that media!";
     }
-
 
     public String getTitle() {
         return title;
